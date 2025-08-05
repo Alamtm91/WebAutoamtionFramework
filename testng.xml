@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Pratice test suite" verbose="1">
+  <test name="UI Automation Test">
+	<parameter name="browser" value="${brwoser}"></parameter>
+	<parameter name="isLambdaTest" value="${isLambdaTest}"></parameter>
+	<parameter name="isHeadless" value="${isHeadless}"></parameter>
+    <classes>
+       <class name="com.ui.tests.LoginTest2"/>
+    </classes>
+  </test>
+
+</suite> 
